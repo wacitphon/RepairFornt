@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200;400;500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.backgroundhome {
+  background-image:url('../image/com01.jpg');
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding-top: 60px; 
+  }
+
+  .custom-btn {
+    width: 150px; 
+    height: 50px; 
+    margin-left: 250px  ;
+
+  }
+
+  .icon-custom-style {
+    margin-left: 20px; /* Adjust as needed */
+  }
+
+  .custom1-btn {
+    font-size: 16px; /* เปลี่ยนขนาดตัวอักษรเป็น 18px */
+  }
+
+  .textBox {
+    min-width: 100px; /* ปรับขนาดตามความเหมาะสม */
+    display: inline-block;
+  }
+
+  .label-text1 {
+    margin-top: -88px; /* ปรับค่าตามความต้องการ */
+  }
+
+  .loading-container {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    height: 100vh; /* ความสูงเต็มหน้าจอ */
+  }
+
+
+  .loading-spinner {
+    width: 50px; /* กำหนดความกว้าง */
+    height: 50px; /* กำหนดความสูง */
+    border-width: 5px; /* กำหนดความหนาของเส้น */
+  }
+
